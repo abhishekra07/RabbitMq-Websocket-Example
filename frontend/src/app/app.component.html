@@ -1,0 +1,16 @@
+<div class="container">
+    <div style="padding: 20px; font-size: 30px; width:500px">
+        <form>
+            <div class="mb-3">
+              <label for="status" class="form-label">What is Device Status</label>
+              <input type="text" class="form-control" id="status" name="status" [(ngModel)]="status">
+            </div>
+            <div class="mb-3">
+              <label for="type" class="form-label">Product Type</label>
+              <input type="text" class="form-control" id="type" name="type" [(ngModel)]="type">
+            </div>
+            <button type="submit" class="btn btn-primary" (click)="sendMessage()">Submit</button>
+          </form>
+    </div>
+</div>
+  
